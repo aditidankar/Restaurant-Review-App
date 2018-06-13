@@ -105,7 +105,7 @@ fillRestaurantHoursHTML = (
  */
 fillReviewsHTML = (reviews = self.restaurant.reviews) => {
     const container = document.getElementById("reviews-container");
-    const title = document.createElement("h4");
+    const title = document.createElement("h3");
     /* ACCESSIBILITY SETUP */
     title.setAttribute("tabindex", "0");
     /* *** */
